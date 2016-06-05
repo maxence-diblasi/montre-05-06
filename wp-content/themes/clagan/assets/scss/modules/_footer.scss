@@ -1,0 +1,117 @@
+#full-assurance{
+	background:$or;
+	padding-top:50px;
+	padding-bottom:50px;
+	#assurance{
+		.align-content{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			p{
+				margin:0;
+				margin-left:20px;
+				margin-right:90px;
+				padding-left:10px;
+				font-family:$lato;
+				font-size:14px;
+				font-weight:700;
+				color:$blanc;
+				border-left:solid 1px $blanc;
+				display:inline-block;
+				text-align:left;
+			}
+			img{
+			}
+			.assurance-1{
+				padding-top:20px;
+				padding-bottom:20px;
+			}
+		}
+
+	}
+}
+#full-footer{
+	background:$blue-dark;
+	padding-top:50px;
+	padding-bottom:50px;
+	#foot{
+		h6{
+			font-family:$lato;
+			font-weight:700;
+			letter-spacing:4px;
+			text-transform:uppercase;
+			color:white;
+			margin-bottom:30px;
+		}
+		a{
+			font-family: $lato;
+			color:white;
+			text-decoration:none;
+			display:block;
+			transition: all .2s ease-in-out;
+			margin-bottom:7px;
+			i{
+				color:$blue-dark;
+				height:22px;
+				width:22px;
+				line-height:22px;
+				font-size:15px;
+				border-radius: 50px;
+				margin: 0 auto;
+				text-align:center;
+				background:$or;
+				margin-right:10px;
+			}
+			transition: all .2s ease-in-out;
+			&:hover{
+				color:$gris;
+				margin-left:10px;
+				.fa-facebook{
+					background:$facebook;
+					font-size:13px;
+					color:$blanc;
+				}
+				.fa-twitter{
+					background:$twitter;
+					color:$blanc;
+
+				}
+				.fa-google{
+					background:$google;
+					color:$blanc;
+
+				}
+			}
+		}
+
+		.newsletter{
+			position:relative;
+			border:none;
+			.mail{
+				color:$gris-medium;
+				font-family:$lato;
+			}
+			.email{
+				height:35px;
+				background:white;
+			}
+			.envois{
+				position:absolute;
+				background:$or;
+				color:$blanc;
+				width:39px;
+				height:39px;
+				border:none;
+				margin:0 auto;
+				top:0px;
+				right:0px;
+				transition: all .2s ease-in-out;
+				&:hover{
+					background: $or-dark;
+				}
+
+			}
+		}
+
+	}
+}

@@ -1,0 +1,213 @@
+.full-watches{
+
+
+
+
+    .product{
+
+        .images{
+
+        }
+        .entry-summary{
+
+          .reassurance{
+            margin-bottom:40px;
+            margin-left:0px;
+              .assurance-1{
+                float:left;
+                width:150px;
+                margin-right:10px!important;
+                background:$blanc;
+                border:solid 2px $gris;
+                img{
+                  margin-left:5px;
+                  margin-right:5px;
+                  margin-top:10px;
+                  margin-bottom:10px;
+                  display:inline-block;
+                }
+                p{
+                  display:inline-block;
+                  font-size:10px;
+                }
+              }
+              .assurance-2{
+                float:left;
+                width:150px;
+                background:$blanc;
+                border:solid 2px $gris;
+                img{
+                  margin-left:5px;
+                  margin-right:5px;
+                  margin-top:10px;
+                  margin-bottom:10px;
+                  display:inline-block;
+
+                }
+                p{
+                  display:inline-block;
+                  font-size:10px;
+                }
+              }
+          }
+
+          a:first-of-type{
+              font-family:$lato;
+              font-weight:700;
+              font-size:30px;
+              letter-spacing:4px;
+              color:$blue-dark;
+              text-transform:uppercase;
+              text-decoration:none;
+              pointer-events: none;
+              cursor: default;
+          }
+          h1{
+              font-family:$lato;
+              font-size:24px;
+              font-weight:400;
+              color:$blue-dark;
+              padding-top:5px;
+              padding-bottom:20px;
+              border-bottom: solid 1px #eeeeee;
+          }
+          h2{
+            font-family:$lato;
+            font-size:16px;
+            font-weight:700;
+            color:$blue-dark;
+            text-transform:uppercase;
+            margin-bottom:15px;
+          }
+
+            .amount{
+                display:block;
+                font-family:$lato;
+                font-size:30px;
+                font-weight:700;
+                color:$blue-dark;
+                margin-top:30px;
+                margin-bottom:30px;
+            }
+            .input-text{
+                height:45px;
+            }
+            .button {
+                height:45px;
+                margin: 0 auto;
+                margin-left:20px;
+                border-radius:0;
+                background:$blanc;
+                border:2px solid  $gris-dark;
+                font-family: $lato;
+                font-size: 16px;
+                font-weight:700;
+                color:$gris-dark;
+                text-transform:uppercase;
+                display: inline-block;
+                vertical-align: middle;
+                -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+                  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+                  -webkit-backface-visibility: hidden;
+                  backface-visibility: hidden;
+                  -moz-osx-font-smoothing: grayscale;
+                  position: relative;
+                  -webkit-transition-property: color;
+                  transition-property: color;
+                  -webkit-transition-duration: 0.3s;
+                  transition-duration: 0.3s;
+            }
+            .button:before {
+              content: "";
+              position: absolute;
+              z-index: -1;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: $gris-dark;
+              -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+              -webkit-transform-origin: 0 50%;
+              transform-origin: 0 50%;
+              -webkit-transition-property: transform;
+              transition-property: transform;
+              -webkit-transition-duration: 0.3s;
+              transition-duration: 0.3s;
+              -webkit-transition-timing-function: ease-out;
+              transition-timing-function: ease-out;
+            }
+            .button:hover, .button:focus, .button:active {
+              color: white;
+              background:$blanc;
+            }
+            .button:hover:before, .button:focus:before, .button:active:before {
+              -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+            }
+            .contner-caracteristique{
+              .first-table{
+                padding:0px;
+                margin:0;
+                border:0;
+                tbody{
+                  padding:0px;
+                  background:$blanc;
+                  tr{
+                    margin:0;
+                    padding:0px !important;
+                    th{
+                      width:150px;
+                      height:42px;
+                      line-height:42px;
+                      padding:0px!important;
+                      p{
+                        margin-bottom:0;
+                        vertical-align:middle;
+                      }
+                    }
+                    td{
+                      padding:0px!important;
+                      .data{
+                        margin-bottom:0;
+                        font-style:italic;
+                      }
+                    }
+                  }
+                }
+              }
+              .shop_attributes{
+                padding:0px;
+                background:pink;
+                border:none;
+                tr{
+                  background:$blanc!important;
+                  border: solid 2px #eeeeee;
+
+                  th{
+                    background:none;
+                    border:none;
+
+                    p{
+                      background:none;
+
+                    }
+                  }
+                  td{
+                    background:none;
+                    border:none;
+
+                    p{
+
+                    }
+                  }
+                }
+              }
+
+
+            }
+        }
+
+    }
+}
